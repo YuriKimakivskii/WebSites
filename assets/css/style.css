@@ -53,6 +53,8 @@ body {
     text-transform: uppercase;
     text-align: center;
     line-height: 1;
+
+    margin: 0;
 }
 
 .intro__title::after {
@@ -62,10 +64,11 @@ body {
     height: 3px;
     background-color: #fff;
 
-    margin: 0 auto;
+    margin: 60px auto 0;
 }
 
 .intro__suptitle {
+    margin-bottom: 15px;
     font-size: 72px;
     color: #fff;
     font-family: "Kaushan Script", cursive;
